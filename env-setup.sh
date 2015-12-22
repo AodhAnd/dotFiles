@@ -34,6 +34,6 @@ echo "Installing copr software..."
 dnf copr enable spot/chromium
 dnf copr enable hadrons123/thermald
 dnf install chromium thermal-daemon
-systemctl enable tehrmald
-systemctl start thermald
+systemctl enable tehrmald.service
+systemctl start thermald.service
 echo "Done installing copr software.\n"
