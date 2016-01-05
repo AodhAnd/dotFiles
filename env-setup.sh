@@ -20,7 +20,7 @@ echo "Upgrading current software..."
 dnf upgrade -y
 echo "Done upgrading.\n"
 echo "Installing commmonly used packages from Fedora repo..."
-dnf install -y texlive-collection-genericextra texlive-documentation texlive-collection-fontsextra texlive-collection-latexextra texlive-collection-langfrench texlive-collection-langenglish texlive-collection-langeuropean texlive-collection-bibtexextra redshift gnome-tweak-tool thunderbird conky unzip gimp inkscape weechat valgrind gdb dnf-plugins-core
+dnf install -y texlive-collection-genericextra texlive-documentation texlive-collection-fontsextra texlive-collection-latexextra texlive-collection-langfrench texlive-collection-langenglish texlive-collection-langeuropean texlive-collection-bibtexextra redshift gnome-tweak-tool thunderbird conky unzip gimp inkscape weechat valgrind gdb dnf-plugins-core gcc gcc-c++
 echo "Done installing Fedora packages.\n"
 echo "Installing Sublime Text 3..."
 curl -L git.io/sublimetext | sh
