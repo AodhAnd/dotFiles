@@ -29,7 +29,8 @@ dnf install -y \
 	unzip \
 	gimp inkscape \
 	weechat \
-	valgrind gdb gcc gcc-c++\
+	valgrind gdb gcc gcc-c++ \
+	golang-bin gcc-go \
 	dnf-plugins-core
 echo "Done installing Fedora packages.\n"
 echo "Installing Sublime Text 3..."
