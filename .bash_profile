@@ -9,5 +9,5 @@ fi
 
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
-export PATH
-export GOPATH=$HOME/dev/go
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/Documents/dev/go
