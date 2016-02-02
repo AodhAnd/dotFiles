@@ -31,7 +31,8 @@ dnf install -y \
 	weechat \
 	valgrind gdb gcc gcc-c++ \
 	golang-bin gcc-go \
-	dnf-plugins-core
+	dnf-plugins-core\
+	octave octave-signal octave-io octave-odepkg plplot-octave octave-control octave-specfun octave-statistics octave-symbolic octave-doc
 echo "Done installing Fedora packages.\n"
 echo "Installing Sublime Text 3..."
 curl -L git.io/sublimetext | sh
