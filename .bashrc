@@ -28,3 +28,16 @@ export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
 
 # Prompts Fedora logo and system info. on startup
 #screenfetch
+
+## Creation of personal functions and aliases
+# Aliases
+alias lsl="ls -lhFA | less"
+alias ll="ls -lhA"
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias mkdir="mkdir -pv"
+
+# Functions
+mkcd () {
+    mkdir -p $1
+    cd $1
+}
