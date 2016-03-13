@@ -41,3 +41,15 @@ mkcd () {
     mkdir -p $1
     cd $1
 }
+
+octcl (){
+   octave --no-gui
+}
+
+lsd (){
+  sh ~/Documents/dev/latex/shit_deleter.sh
+}
+
+briss (){
+  java -jar /opt/briss/briss-0.9.jar 
+}
