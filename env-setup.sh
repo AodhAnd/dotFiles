@@ -1,4 +1,4 @@
-# env-setup runs install commands to set most common used software up. 
+# env-setup runs install commands to set up most commonly used software on a new Fedora-like OS. 
 #
 # Copyright (C) 2015 Julien BREHIN, aka. Aand
 #
@@ -31,13 +31,14 @@ dnf install -y \
 	weechat \
 	valgrind gdb gcc gcc-c++ \
 	golang-bin gcc-go \
+	python python3 ipython \
 	dnf-plugins-core\
 	octave octave-signal octave-io octave-odepkg plplot-octave octave-control octave-specfun octave-statistics octave-symbolic octave-doc
 echo "Done installing Fedora packages.\n"
-echo "Installing Sublime Text 3..."
+echo "Installing Sublime Text 3...\n"
 curl -L git.io/sublimetext | sh
 echo "Done installing ST3.\n"
-echo "Installing RPMFusion repo (free + non-free) and related packages..."
+echo "Installing RPMFusion repo (free + non-free) and related packages...\n"
 rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
 rpm -ivh http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
 dnf install -y vlc

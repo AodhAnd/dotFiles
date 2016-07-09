@@ -35,6 +35,7 @@ alias lsl="ls -lhFA | less"
 alias ll="ls -lhA"
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 alias mkdir="mkdir -pv"
+alias py="python3"
 
 # Functions
 mkcd () {
