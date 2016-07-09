@@ -1,0 +1,9 @@
+{
+  "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+  "tab_size": 4,
+
+  // Line
+  "line_numbers": true,
+  "highlight_line": true,
+
+}

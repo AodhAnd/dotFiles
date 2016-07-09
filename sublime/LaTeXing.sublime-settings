@@ -1,0 +1,13 @@
+{
+      /*
+     * Path
+     *
+     * Adjust the path where executable programs are located. For example for
+     * accessing curl on Linux for using the https connection with Zotero if the
+     * SSL module is not available
+     *
+     */
+
+    "path": ["/usr/bin"],
+
+}
