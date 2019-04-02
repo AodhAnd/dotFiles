@@ -21,6 +21,7 @@
 .gnome2
 .gphoto
 .gpsim
+.gradle
 .gtk-custom-papers
 .ICEauthority
 .icons
@@ -32,6 +33,12 @@ ipe.properties
 .lesshst
 .linphone-history.db
 .linphonerc
+*.log
+.local/share/tracker
+.local/share/Trash
+.local/share/Steam
+.local/bin
+.local/lib
 .macromedia
 .maple
 .maplesoft
@@ -48,6 +55,7 @@ ipe.properties
 .QtWebEngineProcess
 .rnd
 rpmbuild
+.sage
 .Skype
 .steampath -> /home/Aand/.steam/bin32/steam
 .steampid -> /home/Aand/.steam/steam.pid
@@ -56,10 +64,7 @@ rpmbuild
 .texlive2015
 .thumbnails
 .thunderbird
-tmp
-.tuxguitar-1.2
-.tuxguitar-1.3.1
-.tuxguitar-1.3.2
-.tuxguitar-1.4
+*/tmp/
+.tuxguitar-*
 .Xilinx
 .xinstall

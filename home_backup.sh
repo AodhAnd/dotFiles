@@ -22,6 +22,10 @@ OPT=
 
 echo "Checking integrity of previous snapshots..."
 restic -r $LOCAL_DEST check
+# If something went wrong during sanity check, there is no need to go further
+if [[ $? == 0 ]]; then
+    exit $?
+fi
 
 echo "Saving $SAVE_FOLDER folder into $LOCAL_DEST with tag $TAG..."
 restic -r $LOCAL_DEST backup $SAVE_FOLDER --exclude-file=$EXCL_FILE --tag $TAG
